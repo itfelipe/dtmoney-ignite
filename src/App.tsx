@@ -5,7 +5,7 @@ import Modal from 'react-modal'
 import { useState } from "react";
 import { NewTransactionModal } from "./components/NewTransactionModal";
 Modal.setAppElement('#root')
-
+//Essa parte é importantíssima
 export function App() {
   const [isNewTransactionModalOpen, setisNewTransactionModalOpen] = useState(false)
 
